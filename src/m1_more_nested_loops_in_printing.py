@@ -249,6 +249,7 @@ def numbers_constant_forward(r, maxnum, n):
     #   in this or the other problems in this module, as doing so would
     #   defeat the goal of providing practice at loops within loops.
     # -------------------------------------------------------------------------
+    for k in range(maxnum):
 
 
 def run_test_numbers_constant_backwards():
